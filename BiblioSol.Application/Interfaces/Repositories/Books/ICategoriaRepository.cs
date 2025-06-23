@@ -1,4 +1,5 @@
-﻿using BiblioSol.Domain.Entities.Books;
+﻿using BiblioSol.Domain.Base;
+using BiblioSol.Domain.Entities.Books;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace BiblioSol.Application.Interfaces.Repositories.Books
 {
     public interface ICategoriaRepository : IBaseRepository<Categoria>
     {
+        //pendiente a entendimiento
     }
 }
